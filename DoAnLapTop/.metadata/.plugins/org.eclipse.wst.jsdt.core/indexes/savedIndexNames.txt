@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\Code\Eclip\DoAnLapTop\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+887932978.index
+1660774333.index
+3059550319.index
+4011753088.index
+940072455.index
+100062323.index
+2738391381.index

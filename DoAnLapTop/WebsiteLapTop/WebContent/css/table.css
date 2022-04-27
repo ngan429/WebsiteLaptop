@@ -1,0 +1,18 @@
+th {
+  padding: 5px;
+}
+td {
+  padding: 5px;
+}
+table {
+  border-collapse: collapse;
+}
+
+.return-home-page {
+  text-decoration: none;
+  padding-left: 25px;
+}
+.delete-edit {
+  text-decoration: none;
+  padding: 2px;
+}

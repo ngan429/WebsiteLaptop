@@ -1,0 +1,8 @@
+package controller;
+import java.awt.*;
+import java.awt.image.*;
+import java.io.*;
+import javax.imageio.*;
+public class XuatHoaDon {
+
+}

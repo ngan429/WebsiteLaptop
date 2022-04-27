@@ -1,0 +1,35 @@
+package controller;
+
+import java.awt.*;
+import java.awt.image.*;
+import java.io.*;
+import javax.imageio.*;
+
+public class XuatHoaDon {
+	public static void main(String[] args) throws Exception {
+
+		try {
+		System.out.println("Doi 1 giay nao…");
+		Thread.sleep(1000);
+		} catch(Exception e) {
+		System.exit(1);
+		}
+
+		String outFileName = "screen.jpg";
+
+		Toolkit toolkit = Toolkit.getDefaultToolkit();
+		Dimension screenSize = toolkit.getScreenSize();
+		screenSize.width = 50;
+		screenSize.height = 50
+		Rectangle screenRect = new Rectangle(screenSize);
+		
+		System.out.println("Screen width = " + screenSize.width);
+	    System.out.println("Screen height = " + screenSize.height);
+		Robot robot = new Robot();
+
+		BufferedImage image = robot.createScreenCapture(screenRect);
+
+		ImageIO.write(image, "jpg", new File(outFileName));
+		System.out.println("Da luu vao file \"" + outFileName + "\".");
+		}
+}

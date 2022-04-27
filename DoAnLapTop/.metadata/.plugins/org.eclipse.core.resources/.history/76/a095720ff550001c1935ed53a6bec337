@@ -1,0 +1,31 @@
+package model;
+
+public class HoaDonBanHang {
+	private int MaHDBH;
+	private int MaSP;
+	private String userName;
+	private String firstlastname;
+	private String diachi;
+	private String numberphone;
+	private String gender;
+	private String nationality;
+	private String noted;
+	public HoaDonBanHang() {}
+	public HoaDonBanHang(int maHDBH, int maSP, String userName, String firstlastname, String diachi, String numberphone,
+			String gender, String nationality, String noted) {
+		super();
+		MaHDBH = maHDBH;
+		MaSP = maSP;
+		this.userName = userName;
+		this.firstlastname = firstlastname;
+		this.diachi = diachi;
+		this.numberphone = numberphone;
+		this.gender = gender;
+		this.nationality = nationality;
+		this.noted = noted;
+	}
+	
+
+	
+
+}
